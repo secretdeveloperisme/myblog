@@ -43,7 +43,10 @@ li a:hover{
 	background-color: #000;
 }
 .active{
-	background-color: aquamarine;
+	background-color:white;
+}
+#active{
+	background-color: white;
 }
 .article{
 	width:100%;
