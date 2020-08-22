@@ -1,0 +1,32 @@
+{
+    "person":[
+        {
+            "hoanglinh":{
+                "name":"Nguyen Hoang Linh",
+                "date_of_birth":"25/11/2000",
+                "gender":"male"
+            }
+        },
+        {
+            "thuylieu":{
+                "name":"Bui Thuy Lieu",
+                "date_of_birth":"16/11/2000",
+                "gender":"female"
+            }
+        },
+        {
+            "hoanglinh":{
+                "name":"Le Thi Kim Y",
+                "date_of_birth":"18/09/2000",
+                "gender":"female"
+            }
+        },
+        {
+            "hoanglinh":{
+                "name":"Nguyen Thi Bich Lien",
+                "date_of_birth":"20/02/2000",
+                "gender":"female"
+            }
+        }
+    ]
+}
