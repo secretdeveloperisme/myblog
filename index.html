@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 	<head>
 		<title>my blog of hoanglinhplus</title>
 		<link rel="stylesheet" href="css/myblog.css">
@@ -7,6 +7,7 @@
 		<meta name="keywords" content="blog,nhl,hoanglinh">
 		<meta name="decription" content="my blog of hoanglinh plus">
 		<meta name="author" content="nguyen hoang linh">
+		<link rel="icon" href="pictures/hl_picture_profile.jpg " type="image/x-icon">
 		<link href="https://fonts.googleapis.com/css2?family=Srisakdi&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head>
@@ -17,9 +18,10 @@
 	<div class="nav" style="position: sticky;">
 		<ul>
 			<li><a href="#home" class="active">home</a></li>
-			<li><a href="#myblog">myblog</a></li>
+			<li><a href="html/personal_profile.html" target="_blank">profile</a></li>
 			<li><a href="#cv">curriculum vitate</a></li>
-			<li><a href="#share">share	</a></li>
+			<li><a href="css/heart.html">heart</a></li>
+			<li><a href="#share">share</a></li>
 			<li class="hl-dropdown-hover" style="float: right;">
 				<button class="hl-dropdown-btn ">account</button>
 				<div class="hl-dropdown-content">
@@ -29,7 +31,37 @@
 			</li>
 		</ul>
 	</div >
+	<section class="brainy-quote font-srisakdi">
+		<blockquote  cite="https://www.brainyquote.com/quotes/albert_einstein_737829">
+			<q>Life is like ridding a bicycle. To keep your balance, you must keep moving.</q>
+			<footer>
+				<cite>Albert Einstein</cite>
+			</footer>
+			
+		</blockquote>
+	</section>
 	<div class="all-detail-profile w3-border">	
+		<div class="profile w3-card w3-panel">
+			<div class="container-name" >
+				<img src="pictures/nt_picture_profile.jpg" alt="" class="picture-thumnail">
+				<div class="profile-name">
+					<h3>Vo Ngoc Thu</h3>
+					<h4>@vongocthu</h4>
+				</div>
+				<button class="info-btn w3-circle w3-white" onclick="readTextFile(4)" style="align-self: center;">info</button>
+			</div>
+			<div class="inner font-srisakdi">
+				<p>my name is  Ngoc Thu i am 21 year olds . hello world </p>
+				<h5 class="date">08/21/2020</h5>
+				<hr>
+			</div >
+			<div class="stats" style="display: flex;">
+				<div class="like"><strong>99</strong>like</div> 
+				<div class="comment"><strong>99</strong>comment</div>
+				<div class="share"><strong>99</strong>share</div>
+			</div>
+			
+		</div>
 		<div class="profile w3-card w3-panel">
 			<div class="container-name" >
 				<img src="pictures/bl_picture_profile.jpg" alt="" class="picture-thumnail">
@@ -108,14 +140,28 @@
 				<hr>
 			</div >
 			<div class="stats" style="display: flex;">
-				<div class="like"><strong>99</strong>like</div> 
-				<div class="comment"><strong>99</strong>comment</div>
-				<div class="share"><strong>99</strong>share</div>
+				<div class="like"><strong>9999</strong>like</div> 
+				<div class="comment"><strong>9999</strong>comment</div>
+				<div class="share"><strong>9999</strong>share</div>
 			</div>
 			
 		</div>
+		
 	</div>    
 
 	<script src="javascript/notification.js"></script>
+	<footer>
+		<div>
+			<h3>&copy; Copyright Nguyen Hoang Linh</h3>
+		</div>
+		<div class="link-profile">
+			<a href="https://www.facebook.com/profile.php?id=100006394081932">
+				<img src="pictures/facebook_icon.png" alt="facebook profile" >
+			</a>
+			<a href="https://github.com/secretdeveloperisme">
+				<img src="pictures/github_icon.png" alt="github profile"  >
+			</a>
+		</div>
+	</footer>
 	</body>
 </html>
