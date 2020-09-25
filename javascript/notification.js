@@ -23,6 +23,11 @@ function readTextFile(number)
          '"name":"Nguyen Thi Bich Lien",'+     
          ' "date_of_birth":"20/02/2000",'+  
          '"gender":"female"'+   
+    '},'+
+    '{'+     
+         '"name":"Vo Ngoc Thu",'+     
+         ' "date_of_birth":"07/07/1999",'+  
+         '"gender":"female"'+   
     '}'+
 ']'+
 '}';
@@ -43,6 +48,10 @@ var person=JSON.parse(text);
         case 3: 
         var lien=person.person[3];
             window.alert("name:"+lien.name+"\n"+"date_of_birth:"+lien.date_of_birth+"\n"+"gender:"+lien.gender);
+            break;
+        case 4:
+            var thu=person.person[4];
+            window.alert("name:"+thu.name+"\n"+"date_of_birth:"+thu.date_of_birth+"\n"+"gender:"+thu.gender);
             break;
         default: 
             alert("hello world")

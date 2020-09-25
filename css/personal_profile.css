@@ -1,0 +1,37 @@
+nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    border-right: solid;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+nav > ul{
+    list-style-type: none;
+    margin-left:0;
+    padding:0;
+}
+
+li a{ 
+    
+    display:block;
+    background-color:gray;
+    padding:20px 3px 7px 10px;
+    border-top:1px solid red;
+    font-size: larger ;
+}
+li a:hover{
+    background-color:white;
+}
+
+main{
+    margin-left: 305px;
+}
+.code{
+    background-color:gray;
+}
+footer{
+    margin-left: 305px;
+}
