@@ -54,7 +54,7 @@
     async function predict() {
         // predict can take in an image, video or canvas html element
         const prediction = await model.predicTopK(webcam.canvas,1,flip);
-        labelContainer.innerText= prediction[0].className;
+        labelContainer.innerHTML= prediction[0].className;
     }
 </script>
 </body>
